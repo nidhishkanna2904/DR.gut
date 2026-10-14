@@ -1,0 +1,33 @@
+name: dr_gut
+description: "Dr Gut - Personalized Gut Health & Diet Plan from Blood Reports & GPS Location."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  http: ^1.2.2
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  share_plus: ^10.0.0
+  http_parser: ^4.1.2
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
